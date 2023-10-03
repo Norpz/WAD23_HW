@@ -17,6 +17,7 @@ form{
 }
 button {
     margin: 5px;
+    margin-bottom: 15px;
     padding: 0 10px;
     text-align: center;
     font: bold 14px/25px Arial, sans-serif;
@@ -29,16 +30,32 @@ textarea {
   }
 
 .header{
-    padding: 15px 15px;
+    display: flex;
+    align-items: center;
     margin-left: 30%;
-    margin-right: 30%;
+    margin-right: 30%; 
     margin-top: 5%;
+    padding-left: 2%;
     border: 1.5px solid #646174;
     background-color: #7bf4ff;
     box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
+    
+} 
+
+.header img{
+    max-width: 40%;
+    max-height: 40%;
+    order: 1;
+    float: right;
 }
+
+.logintext{
+    order: 0;
+}
+
+
 
 .loginForm {
     text-align: center;
@@ -48,6 +65,11 @@ textarea {
     font: bold 16px/30px Arial, sans-serif;
     color: rgb(0, 13, 191);
 }
+
+.formBody input{
+    padding: 10px 10px;
+    border: none;
+} 
 
 .postBody{
     text-align: center;
