@@ -3,18 +3,25 @@
     font-family: sans-serif;
 }
 
- body.login{
+ body{
     line-height: 1.6;
     margin: 20px;
+    min-width: 300px;
 } 
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .login form{
     padding: 10px 15px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #baf3f8;
 }
-button {
+div button {
     margin: 5px;
     margin-bottom: 15px;
     padding: 0 10px;
@@ -36,8 +43,8 @@ color: rgba(0, 0, 0, 0)
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 30%;
-    margin-right: 30%; 
+    margin-left: 5%;
+    margin-right: 5%; 
     margin-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
@@ -47,7 +54,7 @@ color: rgba(0, 0, 0, 0)
     font-size: 25px; 
 } 
 
-.logintext a{
+.headerText a{
     color: blue;
     text-decoration: none;
     cursor: pointer;
@@ -58,7 +65,7 @@ color: rgba(0, 0, 0, 0)
     box-shadow: 0px 0px 14px 0px rgb(220, 79, 255, 0.75);
 }
 
-.header > .logintext a:hover{
+.header > .headerText a:hover{
     color: rgb(255, 0, 0);
     background-color: black;
 }
@@ -71,7 +78,7 @@ color: rgba(0, 0, 0, 0)
     float: right;
 }
 
-.logintext{
+.headerText{
     order: 0;
 }
 
@@ -85,8 +92,13 @@ color: rgba(0, 0, 0, 0)
     color: rgb(0, 13, 191);
 }
 
+h1 + p {
+    font-weight: bold;
+}
 
-
+h1 ~ p{
+    color: green;
+}
 
 .addPostForm{
     display: flex;
@@ -116,7 +128,7 @@ color: rgba(0, 0, 0, 0)
     text-align: center;
   }
 
-  .post {
+.post {
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     margin-bottom: 20px;
@@ -124,48 +136,57 @@ color: rgba(0, 0, 0, 0)
     background-color: #f0f0f0;
     max-width: 500px; 
     margin: auto; 
-    position: relative; /* Add relative positioning */
-    background-color: #5a76b9; /* Change the background color here */
-    max-width: 500px; /* Set maximum width for the post */
-    margin: auto; /* Center the post */
+    position: relative; 
+    background-color: #5a76b9; 
+    max-width: 500px; 
+    margin: auto; 
   }
 
-  .user-profile {
+.user-profile {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #3d8a98; /* Background color for profile section */
-    border: 1px solid rgb(0, 0, 0); /* Border color for profile section */
-    padding: 10px; /* Padding for profile section */
+    background-color: #3d8a98;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
   }
 
-  .user-profile img {
+.user-profile img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
   }
 
-  .post-image img {
+.post-image img {
     width: 100%;
     display: block;
     margin-bottom: 10px;
   }
 
-  .caption {
+.caption {
     font-size: 16px;
-    text-align: left; /* Align caption to the left */
+    text-align: left;
   }
 
-  .date {
+.date {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #3798c1; /* Background color for date section */
-    border: 1px solid rgb(0, 0, 0); /* Border color for date section */
-    padding: 5px 10px; /* Padding for date section */
+    font-size: small;
+    background-color: #3798c1;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px 5px;
   }
 
-
-
+  @media (min-width: 600px) {
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
