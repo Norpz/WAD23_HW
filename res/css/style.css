@@ -53,9 +53,16 @@ color: rgba(0, 0, 0, 0)
     cursor: pointer;
 }
 
-.header .logintext a:hover{
-    color: red;
+.header:hover{
+    background-color: rgb(220, 79, 255);
+    box-shadow: 0px 0px 14px 0px rgb(220, 79, 255, 0.75);
 }
+
+.header > .logintext a:hover{
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+
 
 .header img{
     max-width: 40%;
@@ -104,17 +111,6 @@ color: rgba(0, 0, 0, 0)
     border-radius: 3px;
 }
 
-.as a{
-    
-    color: blue;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.as a:hover{
-    color: red;
-}
-
 .post-container {
     margin: 20px;
     text-align: center;
@@ -124,6 +120,10 @@ color: rgba(0, 0, 0, 0)
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     margin-bottom: 20px;
+    position: relative;
+    background-color: #f0f0f0;
+    max-width: 500px; 
+    margin: auto; 
     position: relative; /* Add relative positioning */
     background-color: #5a76b9; /* Change the background color here */
     max-width: 500px; /* Set maximum width for the post */
