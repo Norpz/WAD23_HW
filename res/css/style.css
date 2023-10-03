@@ -23,6 +23,12 @@ button {
     font: bold 14px/25px Arial, sans-serif;
 }
 
+textarea {
+    resize: none;
+    text-align: left;
+    vertical-align: top;
+  }
+
 .header{
     display: flex;
     align-items: center;
@@ -65,4 +71,7 @@ button {
     border: none;
 } 
 
+.postBody{
+    text-align: center;
+}
 
