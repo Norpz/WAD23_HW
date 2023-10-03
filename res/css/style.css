@@ -3,12 +3,12 @@
     font-family: sans-serif;
 }
 
-body.login{
+ body.login{
     line-height: 1.6;
     margin: 20px;
+} 
 
-}
-form{
+.login form{
     padding: 10px 15px;
     margin-left: 30%;
     margin-right: 30%;
@@ -78,20 +78,29 @@ color: rgba(0, 0, 0, 0)
     color: rgb(0, 13, 191);
 }
 
-.formBody input{
-    padding: 10px 10px;
-    border: none;
-} 
+
+
 
 .addPostForm{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.chooseFile{
-    text-align: center;
+#fileInput{
+    display: none;
 }
 
-#file{
-    text-align: center;
+.custom-file-input, .createPost{
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 20%;
+    font-size: 13px;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
