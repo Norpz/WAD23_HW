@@ -9,26 +9,29 @@
 <body class="login">
     <div class="header">
         <div class="logintext">
-            <h1>Home</h1>
+            <h1><a href="login.html">Home</a></h1>
         </div>
         <div>
             <img src="res/heiki.jpg">
         </div>
     </div>
-    <form class="addPostForm">
+    
+    <form class="addPostForm" action="index.html" method="POST" id="postForm">
         <div>
             <label for="textarea">Post body</label>
             <textarea id="textarea" name="textarea" placeholder="textarea" rows="4" cols="20"></textarea>
+            
         </div>
-        <div>
-            <label id="file" for="file">Select file</label>
-            <input type="file" id="file" name="file" accept="image/png, image/jpeg" />
+        <div class="selectFile">
+            <label id="fileInput"  for="file">Select file</label>
+            <input type="file" id="fileInput" name="file" accept="image/png, image/jpeg">
+            <label for="fileInput" class="custom-file-input"><strong>Select a file</strong></label>
         </div>
         <div>
             <br>
-            <button type="button">Create post</button>
+            <button type="submit" class="createPost">Create post</button>
         </div>
-    </form>
+    
 
 </body>
 </html>
