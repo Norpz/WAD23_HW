@@ -36,18 +36,28 @@ textarea {
     margin-right: 30%; 
     margin-top: 5%;
     padding-left: 2%;
+    padding-right: 2%;
     background-color: #7bf4ff;
     box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
     text-align: left;
-    font-size: 25px;
-    
+    font-size: 25px; 
 } 
+
+.logintext a{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header .logintext a:hover{
+    color: red;
+}
 
 .header img{
     max-width: 40%;
     max-height: 40%;
     order: 1;
-    /* float: right; */
+    float: right;
 }
 
 .logintext{
@@ -58,6 +68,7 @@ textarea {
 
 .loginForm {
     text-align: center;
+    box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
 }
 
 .loginForm a{
