@@ -22,6 +22,12 @@ button {
     font: bold 14px/25px Arial, sans-serif;
 }
 
+textarea {
+    resize: none;
+    text-align: left;
+    vertical-align: top;
+  }
+
 .header{
     padding: 15px 15px;
     margin-left: 30%;
@@ -43,4 +49,7 @@ button {
     color: rgb(0, 13, 191);
 }
 
+.postBody{
+    text-align: center;
+}
 
