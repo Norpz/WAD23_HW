@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/style.css">
     <title>addPost</title>
+    <style>
+        textarea {
+          resize: none;
+        }
+        </style>
 </head>
+<body>
+    <h1 class="header">Login</h1>
+    <form class="loginForm">
+        <div class="formBody">
+            <label for="textarea">Post body</label><br>
+            <textarea id="text" name="textarea" placeholder="textarea" rows="4" cols="20"></textarea>
+            <br>
+            <label for="file">Select file</label>
+            <input type="file" id="file" name="file" accept="image/png, image/jpeg" />
+        </div>
+        <div>
+            <br>
+            <button type="button">Create post</button>
+        </div>
+    </form>
 
-
+</body>
 </html>
