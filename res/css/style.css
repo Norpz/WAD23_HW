@@ -3,7 +3,7 @@
     font-family: sans-serif;
 }
 
-body{
+body.login{
     line-height: 1.6;
     margin: 20px;
 
@@ -19,17 +19,28 @@ button {
     margin: 5px;
     padding: 0 10px;
     text-align: center;
-    font: bold 12px/25px Arial, sans-serif;
+    font: bold 14px/25px Arial, sans-serif;
 }
 
 .header{
-    padding: 10px 15px;
+    padding: 15px 15px;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
     border: 1.5px solid #646174;
     background-color: #7bf4ff;
     box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
+
+.loginForm {
+    text-align: center;
+}
+
+.loginForm a{
+    font: bold 16px/30px Arial, sans-serif;
+    color: rgb(0, 13, 191);
+}
+
+
