@@ -26,7 +26,11 @@ textarea {
     resize: none;
     text-align: left;
     vertical-align: top;
-  }
+}
+
+input[type='file'] {
+color: rgba(0, 0, 0, 0)
+}
 
 .header{
     display: flex;
@@ -54,8 +58,6 @@ textarea {
     order: 0;
 }
 
-
-
 .loginForm {
     text-align: center;
 }
@@ -70,7 +72,15 @@ textarea {
     border: none;
 } 
 
-.postBody{
+.addPostForm{
+    text-align: center;
+}
+
+.chooseFile{
+    text-align: center;
+}
+
+#file{
     text-align: center;
 }
 
