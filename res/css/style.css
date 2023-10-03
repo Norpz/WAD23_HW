@@ -12,7 +12,6 @@ form{
     padding: 10px 15px;
     margin-left: 30%;
     margin-right: 30%;
-    border: 1.5px solid #646174;
     background-color: #baf3f8;
 }
 button {
@@ -32,11 +31,11 @@ textarea {
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 30%;
     margin-right: 30%; 
     margin-top: 5%;
     padding-left: 2%;
-    border: 1.5px solid #646174;
     background-color: #7bf4ff;
     box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
     text-align: left;
@@ -48,7 +47,7 @@ textarea {
     max-width: 40%;
     max-height: 40%;
     order: 1;
-    float: right;
+    /* float: right; */
 }
 
 .logintext{
