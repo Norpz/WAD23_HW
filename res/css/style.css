@@ -15,11 +15,13 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.login form{
+.login form, .addPost form{
     padding: 10px 15px;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #baf3f8;
+    text-align: center;
+    box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
 }
 div button {
     margin: 5px;
@@ -82,10 +84,6 @@ color: rgba(0, 0, 0, 0)
     order: 0;
 }
 
-.loginForm {
-    text-align: center;
-    box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
-}
 
 .loginForm a{
     font: bold 16px/30px Arial, sans-serif;
