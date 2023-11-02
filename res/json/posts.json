@@ -6,8 +6,8 @@
       "author": "Arian Veget",
       "create_time": "2023-11-01T12:00:00",
       "content": "I went to the cinema and ate very good corn!",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/vegetables.jpg",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/anonyymneProfiil.jpg"
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/vegetables.jpg",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/vegetarianProfiil.jpg"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "author": "Rocky",
       "create_time": "2023-11-02T14:30:00",
       "content": "Big rock is better than small rock.",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/rock.jpg",
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/rock.jpg",
       "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/rockyProfiil.jpg"
     },
     {
@@ -24,8 +24,8 @@
       "author": "Pro Peller",
       "create_time": "2023-11-02T15:30:00",
       "content": "#Isawveryawesomehelicopter",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/helicopter.jpg",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/blank-profile-picture.png"
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/helicopter.jpg",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     },
     {
       "id": 4,
@@ -33,8 +33,8 @@
       "author": "Laivi Tuvahe",
       "create_time": "2023-11-03T10:00:00",
       "content": "We ate family dinner and I found nasty stuf in Ants' drawer :(",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/familyDinner.jpg",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/anonyymneProfiil.jpg"
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/familyDinner.jpg",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     },
     {
       "id": 5,
@@ -42,8 +42,8 @@
       "author": "Maka Roon",
       "create_time": "2023-11-03T14:30:00",
       "content": "I put in chicken and got good food.",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/pasta.jpg",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/anonyymneProfiil.jpg"
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/pasta.jpg",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     },
     {
       "id": 6,
@@ -51,7 +51,8 @@
       "author": "Ne Hobu",
       "create_time": "2023-11-04T17:45:00",
       "content": "Today I saw a big animal. It was a horse!",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/heiki.jpg"
+      "image_url": "",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/heiki.jpg"
     },
     {
       "id": 7,
@@ -59,7 +60,8 @@
       "author": "Daja Meister",
       "create_time": "2023-11-04T19:55:00",
       "content": "I used a screw to make a pointy thing!",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/heiki.jpg"
+      "image_url": "",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/heiki.jpg"
     },
     {
       "id": 8,
@@ -67,7 +69,8 @@
       "author": "Anni Mal",
       "create_time": "2023-11-04T20:15:00",
       "content": "Tonight is my birthday Party, you are all welcome!",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/blank-profile-picture.png"
+      "image_url": "",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     },
     {
       "id": 9,
@@ -75,8 +78,8 @@
       "author": "Mas Terch Ef",
       "create_time": "2023-11-05T20:00:00",
       "content": "Started making cookies, but ate the dough.",
-      "image_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/cookies.jpg",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/anonyymneProfiil.jpg"
+      "image_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/cookies.jpg",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     },
     {
       "id": 10,
@@ -84,6 +87,7 @@
       "author": "Tin Yman",
       "create_time": "2023-11-05T21:45:00",
       "content": "I walked to work and saw lots of different people.",
-      "imageAuthor_url": "https://github.com/Norpz/WAD23_HW1/blob/main/res/images/anonyymneProfiil.jpg"
+      "image_url": "",
+      "imageAuthor_url": "https://raw.githubusercontent.com/Norpz/WAD23_HW1/main/res/images/anonyymneProfiil.jpg"
     }
   ]
