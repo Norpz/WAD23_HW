@@ -41,9 +41,7 @@ fetch('res/json/posts.json')
                 const postImageDiv=document.createElement("div")
                 postImageDiv.className="post-image"
                 
-                const postImg=document.createElement("img")
-                postImg.src=element.image_url
-                postImg.alt="Post Image"
+                
 
                 const captionDiv=document.createElement("div")
                 captionDiv.className="caption"
@@ -58,9 +56,16 @@ fetch('res/json/posts.json')
                 userProfileDiv.appendChild(profileImg)
                 userProfileDiv.appendChild(nameDiv)
                 postDiv.appendChild(userProfileDiv)
+                
+                if(element.image_url!=""){
+                    const postImg=document.createElement("img")
+                    postImg.src=element.image_url
+                    postImg.alt="Post Image"
+                    postImageDiv.appendChild(postImg)
+                    postDiv.appendChild(postImageDiv)
+                }
 
-                postImageDiv.appendChild(postImg)
-                postDiv.appendChild(postImageDiv)
+                
 
                 postDiv.appendChild(captionDiv)
                 postDiv.appendChild(dateDiv)
