@@ -72,4 +72,5 @@ fetch('res/json/posts.json')
             document.body.appendChild(postContainer)
 
         })
+        .catch(error => console.error("Error fetching data:", error))
     }
