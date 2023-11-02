@@ -15,7 +15,18 @@ footer{
     clear:both;
     text-align: center;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%; 
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:#EAD7BB;;
+    box-shadow: 0px 0px 14px 0px #EAD7BB;
+    color: #113946;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .login form, .addPost form{
@@ -219,6 +230,17 @@ h1 ~ p{
 
 #name {
     border-radius: 0 15px 0px 0px;
+}
+
+.likeDiv {
+    text-align: right;
+}
+
+.like {
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 /*.sidebar-left,

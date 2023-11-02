@@ -52,7 +52,19 @@ fetch('https://api.npoint.io/310271b6e51d1b11206b')
                 const captionDiv=document.createElement("div")
                 captionDiv.className="caption"
                 captionDiv.innerHTML=element.content
-                console.log(element.content)
+
+                const likeImgDiv = document.createElement("div")
+                likeImgDiv.className = "likeDiv"
+
+
+                const likeImg = document.createElement("img")
+                likeImg.src="res/images/like.png"
+                likeImg.className = "like"
+                
+
+                likeImgDiv.appendChild(likeImg)
+                
+
 
                 const dateDiv=document.createElement("div")
                 dateDiv.className="date"
@@ -72,6 +84,7 @@ fetch('https://api.npoint.io/310271b6e51d1b11206b')
                 }
 
                 postDiv.appendChild(captionDiv)
+                postDiv.appendChild(likeImgDiv)
                 postDiv.appendChild(dateDiv)
 
                 postContainer.appendChild(postDiv)
