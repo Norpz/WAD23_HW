@@ -7,6 +7,8 @@
     line-height: 1.6;
     margin: 20px;
     min-width: 300px;
+    background-color: #FFF2D8;
+    
 } 
 
 footer{
@@ -22,6 +24,7 @@ footer{
     background-color: #baf3f8;
     text-align: center;
     box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
+    border-radius: 15px 15px 15px 15px;
 }
 div button {
     margin: 5px;
@@ -50,26 +53,28 @@ color: rgba(0, 0, 0, 0)
     margin-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: #7bf4ff;
-    box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
+    background-color:#EAD7BB;;
+    box-shadow: 0px 0px 14px 0px #EAD7BB;
     text-align: left;
-    font-size: 25px; 
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
 } 
 
 .headerText a{
-    color: blue;
+    color: #113946;
     text-decoration: none;
     cursor: pointer;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .header:hover{
-    background-color: rgb(220, 79, 255);
-    box-shadow: 0px 0px 14px 0px rgb(220, 79, 255, 0.75);
+    background-color: #BCA37F;
+    box-shadow: 0px 0px 14px 0px #a1947d;
 }
 
 .header > .headerText a:hover{
-    color: rgb(255, 0, 0);
-    background-color: black;
+    color: #113946;
+    
 }
 
 
@@ -95,7 +100,7 @@ h1 + p {
 }
 
 h1 ~ p{
-    color: green;
+    color: #113946;
 }
 
 .addPostForm{
@@ -127,26 +132,25 @@ h1 ~ p{
   }
 
 .post {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #EAD7BB;
     padding: 10px;
     margin-bottom: 20px;
-    position: relative;
-    background-color: #f0f0f0;
-    max-width: 500px; 
-    margin: auto; 
     position: relative; 
-    background-color: #5a76b9; 
+    background-color: #EAD7BB; 
     max-width: 500px; 
     margin: auto; 
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
   }
 
 .user-profile {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #3d8a98;
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #BCA37F;
+    border:1px solid #BCA37F;
     padding: 10px;
+    border-radius: 20px 20px 20px 20px;
   }
 
 .user-profile img {
@@ -172,10 +176,75 @@ h1 ~ p{
     top: 10px;
     right: 10px;
     font-size: small;
-    background-color: #3798c1;
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #dfcdb4;
+    border: 1px solid #dfccb1;
     padding: 1px 5px;
+    border-radius: 0px 15px 0px 15px;
   }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: -31px;
+    top: 100%;
+    border-radius: 0px 15px 15px 15px;
+  }
+
+.dropdown-content a {
+    display: block;
+    padding: 5px 6px;
+    text-decoration: none;
+    color: #333;
+    font-size: small;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+}
+
+#logout {
+    border-radius: 0 0px 15px 15px;
+}
+
+#name {
+    border-radius: 0 15px 0px 0px;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+/* Style the left sidebar */
+.sidebar {
+    width: 20%; /* Adjust the width as needed */
+    background-color: #f3da94; /* Use your desired background color */
+    /* Add any other styling you want for the sidebar */
+}
+
+/* Style the right sidebar */
+.sidebar:last-child {
+    width: 20%; /* Adjust the width as needed */
+    background-color: #f3da94; /* Use your desired background color */
+    /* Add any other styling you want for the sidebar */
+}
+
+/* Style the main content area */
+.main-content {
+    flex-grow: 1; /* Allow the main content to take up the remaining space */
+    /* Add any other styling you want for the main content */
+}
+
 
   @media (min-width: 600px) {
     .loginForm {

@@ -12,8 +12,16 @@
 window.onload = function(){
 
 
+    document.getElementById("dropdownImg").addEventListener('click', function() {
+        const dropdownContent = document.querySelector('.dropdown-content');
+        if (dropdownContent.style.display === 'block' || getComputedStyle(dropdownContent).display === 'block') {
+            dropdownContent.style.display = 'none';
+        } else {
+            dropdownContent.style.display = 'block';
+        }
+    });
 
-fetch('res/json/posts.json')
+fetch('https://api.npoint.io/310271b6e51d1b11206b')
         .then((response) => response.json())
         .then(json => {
 
@@ -40,8 +48,6 @@ fetch('res/json/posts.json')
 
                 const postImageDiv=document.createElement("div")
                 postImageDiv.className="post-image"
-                
-                
 
                 const captionDiv=document.createElement("div")
                 captionDiv.className="caption"
@@ -56,7 +62,7 @@ fetch('res/json/posts.json')
                 userProfileDiv.appendChild(profileImg)
                 userProfileDiv.appendChild(nameDiv)
                 postDiv.appendChild(userProfileDiv)
-                
+
                 if(element.image_url!=""){
                     const postImg=document.createElement("img")
                     postImg.src=element.image_url
@@ -64,8 +70,6 @@ fetch('res/json/posts.json')
                     postImageDiv.appendChild(postImg)
                     postDiv.appendChild(postImageDiv)
                 }
-
-                
 
                 postDiv.appendChild(captionDiv)
                 postDiv.appendChild(dateDiv)
@@ -75,7 +79,8 @@ fetch('res/json/posts.json')
             });
 
             document.body.appendChild(postContainer)
-
         })
         .catch(error => console.error("Error fetching data:", error))
+
+        
     }
