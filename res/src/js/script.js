@@ -5,7 +5,8 @@
       "author": "Arian Veget",
       "create_time": "2023-11-01T12:00:00",
       "content": "I went to the cinema and ate very good corn!",
-      "image_url": "LISADA PILDI URL, NT GITHUBIST VMS"
+      "image_url": "LISADA PILDI URL, NT GITHUBIST VMS",
+      "imageAuthor_url": "LISADA PILDI URL, NT GITHUBIST VMS"
 */
 
 window.onload = function(){
@@ -31,7 +32,7 @@ fetch('res/json/posts.json')
                 userProfileDiv.className = "user-profile" 
 
                 const profileImg=document.createElement("img")
-                profileImg.src=""
+                profileImg.src=element.imageAuthor_url
                 profileImg.alt="User Profile Picture"
 
                 const nameDiv=document.createElement("div")
@@ -41,7 +42,7 @@ fetch('res/json/posts.json')
                 postImageDiv.className="post-image"
                 
                 const postImg=document.createElement("img")
-                postImg.src=""
+                postImg.src=element.image_url
                 postImg.alt="Post Image"
 
                 const captionDiv=document.createElement("div")
