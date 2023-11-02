@@ -12,6 +12,7 @@
 } 
 
 footer{
+    clear:both;
     text-align: center;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -220,32 +221,12 @@ h1 ~ p{
     border-radius: 0 15px 0px 0px;
 }
 
-
-.wrapper {
-    display: flex;
-}
-
-/* Style the left sidebar */
-.sidebar {
-    width: 20%; /* Adjust the width as needed */
-    background-color: #f3da94; /* Use your desired background color */
-    /* Add any other styling you want for the sidebar */
-}
-
-/* Style the right sidebar */
-.sidebar:last-child {
-    width: 20%; /* Adjust the width as needed */
-    background-color: #f3da94; /* Use your desired background color */
-    /* Add any other styling you want for the sidebar */
-}
-
-/* Style the main content area */
-.main-content {
-    flex-grow: 1; /* Allow the main content to take up the remaining space */
-    /* Add any other styling you want for the main content */
-}
-
-
+/*.sidebar-left,
+.sidebar-right {
+    width: 20%; 
+    background-color: #EAD7BB; 
+    height: 100vh;
+}*/
   @media (min-width: 600px) {
     .loginForm {
         display: flex;

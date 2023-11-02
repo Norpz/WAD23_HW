@@ -77,8 +77,11 @@ fetch('https://api.npoint.io/310271b6e51d1b11206b')
                 postContainer.appendChild(postDiv)
 
             });
-
+            const footer = document.createElement("footer")
+            footer.innerHTML = "RAM 2023"
             document.body.appendChild(postContainer)
+            document.body.appendChild(footer)
+
         })
         .catch(error => console.error("Error fetching data:", error))
 
