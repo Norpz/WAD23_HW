@@ -33,9 +33,9 @@ footer{
     padding: 10px 15px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #baf3f8;
+    background-color: #f0dec5;
     text-align: center;
-    box-shadow: 0px 0px 14px 0px rgba(85, 238, 255, 0.75);
+    box-shadow: 0px 0px 14px 0px #f0dec5;
     border-radius: 15px 15px 15px 15px;
 }
 div button {
