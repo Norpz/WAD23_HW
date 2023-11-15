@@ -21,7 +21,7 @@ window.onload = function(){
         }
     });
 
-fetch('https://api.npoint.io/310271b6e51d1b11206b')
+fetch('res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
 
